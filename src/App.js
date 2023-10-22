@@ -1,22 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className='cima'>
+
+        <div className='vermelho'>
+
+
+          <img className='skate' src='../../assets/images/image 122.png' />
+
+        </div>
+
+        <div className='' />
+
+        <div className='imagemUsuario'>
+
+
+          <div className='seta'>
+            <img className='seta' src='../../../assets/images/image 273.png' />
+          </div>
+
+
+
+          <img className='usuario' src="../../../assets/images/image 136.png" />
+
+          <div className='pontos' >
+
+            <img className='pont' src='../../../assets/images/pontos 1.png'></img>
+
+          </div>
+
+        </div>
+
+
+
+        <h4 className='h4'>ALTERAR FOTO DE PERFIL</h4>
       </header>
     </div>
   );
