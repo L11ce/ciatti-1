@@ -33,6 +33,37 @@ height: 105px;
 }
 
 .seta{
+
   display: flex;
   justify-content:start;
+  align-items: start;
+
 }
+
+.red{
+  background: rgb(231,0,0);
+  background: linear-gradient(180deg, rgba(231,0,0,1) 0%, rgba(100,28,18,1) 35%, rgba(0,0,0,1) 100%);
+  
+
+}
+
+.circulo {
+  
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.app{
+  width: 200px;
+justify-content: start;
+
+
+
+}
+
+
+
+
+

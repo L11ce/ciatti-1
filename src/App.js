@@ -4,8 +4,11 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <header className='cima'>
 
+      
+        
+      <header className='cima'>
+      <div className='red'>
         <div className='vermelho'>
 
 
@@ -13,9 +16,11 @@ function App() {
 
         </div>
 
-        <div className='' />
+        <div className='kp' />
 
         <div className='imagemUsuario'>
+
+
 
 
           <div className='seta'>
@@ -24,20 +29,27 @@ function App() {
 
 
 
-          <img className='usuario' src="../../../assets/images/image 136.png" />
+          
 
           <div className='pontos' >
-
-            <img className='pont' src='../../../assets/images/pontos 1.png'></img>
+          
+            <img className='pont' src='../../../assets/images/png.png'></img>
 
           </div>
-
+<div className='circulo'></div>
         </div>
 
 
 
         <h4 className='h4'>ALTERAR FOTO DE PERFIL</h4>
+
+       
+
+
+
+        </div>
       </header>
+      
     </div>
   );
 }
